@@ -1,1 +1,10 @@
 <p>dashboard works!</p>
+<button (click)="m2({
+        message: 'This is a success message!'
+        , alertifyType: 'success'
+        , alertifyPosition: 'top-left'
+        , delay: 1
+        , dismisOther: true
+})">Show Alert with Set Cofing</button>
+<button (click)="m('hello')">Show Alert default config</button>
+<button (click)="d()">dismiss</button>

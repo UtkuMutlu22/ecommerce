@@ -1,24 +1,32 @@
-import { Component, signal, AfterViewInit, Inject, PLATFORM_ID } from '@angular/core';
+import { Component, signal, AfterViewInit, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import { RouterOutlet, RouterModule } from '@angular/router';
 import { AdminModule } from './admin/admin-module';
 import { UiModule } from './ui/ui-module';
-import { PlatformService } from './globalService/platform.service';
-
-
+import { NgxSpinnerModule, NgxSpinnerService } from "ngx-spinner";
 @Component({
   selector: 'app-root',
   imports: [
     RouterOutlet,
     RouterModule,
     AdminModule,
-    UiModule
+    UiModule,
+    NgxSpinnerModule
+
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
-export class App implements AfterViewInit {
+export class App implements OnInit  {
+
   protected readonly title = signal('ecommerce');
 
-  ngAfterViewInit() {
+  constructor(private spinner: NgxSpinnerService) {}
+   ngOnInit() {
+    this.spinner.show('s1');
+
+    setTimeout(() => {
+      this.spinner.hide('s1');
+    }, 5000);
   }
+
 }

@@ -1,28 +1,25 @@
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { LayoutModule } from './layout-module';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import { isPlatformBrowser } from '@angular/common';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { PlatformService } from '../../globalService/platform.service';
+import { AlertifyPosition, AlertifyService, AlertifyType } from '../../globalService/admin/alertify.service';
 @Component({
   selector: 'app-layout',
-  imports: [RouterModule,LayoutModule,MatSidenavModule],
+  imports: [RouterModule, LayoutModule, MatSidenavModule],
   templateUrl: './layout.html',
   styleUrl: './layout.scss'
 })
-export class Layout implements OnInit
-{
-    private alertify: any;
-
-  constructor(private platform: PlatformService) {}
+export class Layout implements OnInit {
+  constructor(
+    private platform: PlatformService,
+    private aletrty: AlertifyService, // Inject AlertifyService
+  ) { }
 
   ngOnInit() {
     if (this.platform.isBrowser()) {
-      // alertify sadece tarayıcıda import ediliyor
-      import('alertifyjs').then((alertify) => {
-        this.alertify = alertify;
-        this.alertify.success('Ready!');
-      });
+      // this.aletrty.message('Alertify is ready!', AlertifyType.Warning, AlertifyPosition.TopRight, 2000);
+      
     }
   }
 }

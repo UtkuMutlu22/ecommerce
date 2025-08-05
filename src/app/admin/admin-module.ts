@@ -5,6 +5,7 @@ import { ProductModule } from './product/product-module';
 import { CustomerModule } from './customer/customer-module';
 import { OrderModule } from './order/order-module';
 import { DashboardModule } from './dashboard/dashboard-module';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 
@@ -16,14 +17,15 @@ import { DashboardModule } from './dashboard/dashboard-module';
     ProductModule,
     CustomerModule,
     OrderModule,
-    DashboardModule
+    DashboardModule,
+    
   ],
   exports: [
     LayoutModule,
-     ProductModule,
+    ProductModule,
     CustomerModule,
     OrderModule,
-    DashboardModule
+    DashboardModule,
   ]
 })
 export class AdminModule { }

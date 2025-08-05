@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Header } from './header/header';
 import { SideBar } from './side-bar/side-bar';
 import { Footer } from './footer/footer';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 @NgModule({
@@ -12,7 +13,7 @@ import { Footer } from './footer/footer';
     Header,
     SideBar,
     Footer,
-    
+    NgxSpinnerModule
   ],
   exports: [
     Header,
