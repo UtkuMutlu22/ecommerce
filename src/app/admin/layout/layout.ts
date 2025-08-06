@@ -2,7 +2,7 @@ import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { LayoutModule } from './layout-module';
 import { MatSidenavModule } from '@angular/material/sidenav';
-import { PlatformService } from '../../globalService/platform.service';
+import { PlatformService } from '../../globalService/common/platform.service';
 import { AlertifyPosition, AlertifyService, AlertifyType } from '../../globalService/admin/alertify.service';
 @Component({
   selector: 'app-layout',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PlatformService } from '../../../globalService/platform.service';
+import { PlatformService } from '../../../globalService/common/platform.service';
 import { AlertifyPosition, AlertifyService, AlertifyType } from '../../../globalService/admin/alertify.service';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Base, SpinnerType } from '../../../base/base';
