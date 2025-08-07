@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product-module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\admin\\product\\product-module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product\\product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\admin\\product\\product\\product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product\\product.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\admin\\product\\product\\product.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "product-module.ts",
+              "DocumentMoniker": "C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product-module.ts",
+              "RelativeDocumentMoniker": "src\\app\\admin\\product\\product-module.ts",
+              "ToolTip": "C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product-module.ts",
+              "RelativeToolTip": "src\\app\\admin\\product\\product-module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-07T06:24:18.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product.ts",
+              "DocumentMoniker": "C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product\\product.ts",
+              "RelativeDocumentMoniker": "src\\app\\admin\\product\\product\\product.ts",
+              "ToolTip": "C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product\\product.ts",
+              "RelativeToolTip": "src\\app\\admin\\product\\product\\product.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-07T06:22:53.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "product.html",
+              "DocumentMoniker": "C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product\\product.html",
+              "RelativeDocumentMoniker": "src\\app\\admin\\product\\product\\product.html",
+              "ToolTip": "C:\\Users\\utku.mutlu\\Desktop\\Private\\Projeler\\Angular\\ecommerce\\src\\app\\admin\\product\\product\\product.html",
+              "RelativeToolTip": "src\\app\\admin\\product\\product\\product.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-07T06:22:23.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
